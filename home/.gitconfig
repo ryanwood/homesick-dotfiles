@@ -1,6 +1,6 @@
 [user]
-  name = Chris Moore
-  email = cdmwebs@gmail.com
+  name = Ryan Wood
+  email = ryan.wood@gmail.com 
 [color]
   status = auto
   diff = auto
@@ -15,7 +15,7 @@
 [merge]
   tool = vimdiff
 [core]
-  excludesfile = /Users/chris/.gitignore
+  excludesfile = /Users/ryanwood/.gitignore
 [apply]
   whitespace = strip
 [diff]
@@ -26,7 +26,7 @@
 [status]
   color = auto
 [github]
-  user = cdmwebs
-  token = a8092daca05034f9694eefcb252e9839
+	user = ryanwood
+	token = 5407ae6aefccd5ec5d9291d5044307dc
 [push]
   default = current
