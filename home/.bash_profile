@@ -10,6 +10,9 @@ export LS_OPTIONS='-G'
 export PATH=$HOME/bin:$PATH
 export PGDATA="/usr/local/var/postgres"
 
+# http://afreshcup.com/home/2009/12/7/shut-up-postgres.html
+export PGOPTIONS='-c client_min_messages=WARNING'
+
 if [[ -s "$HOME/.rvm/scripts/rvm" ]]; then 
   source "$HOME/.rvm/scripts/rvm";
   [[ -r $rvm_path/scripts/completion ]] && source $rvm_path/scripts/completion
