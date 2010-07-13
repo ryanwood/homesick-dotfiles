@@ -22,6 +22,8 @@ if [ -f ~/.s3_keys ]; then
   source ~/.s3_keys;
 fi
 
+
+source ~/.git-completion
 # Git prompt
 # http://henrik.nyh.se/2008/12/git-dirty-prompt
 # http://www.simplisticcomplexity.com/2008/03/13/show-your-git-branch-name-in-your-prompt/
