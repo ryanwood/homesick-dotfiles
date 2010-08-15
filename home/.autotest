@@ -2,7 +2,6 @@ require 'autotest/fsevent'
 require 'autotest/growl'
 require 'autotest/timestamp'
 require 'autotest/rails'
-require 'redgreen/autotest'
 
 Autotest.add_hook :initialize do |autotest|
   %w{.git .svn .hg .DS_Store ._* vendor tmp log doc}.each do |exception|
