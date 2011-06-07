@@ -1,6 +1,6 @@
 [user]
-  name = Ryan Wood
-  email = ryan.wood@gmail.com 
+	name = Ryan Wood
+	email = ryan.wood@gmail.com
 [color]
   status = auto
   diff = auto
@@ -16,6 +16,7 @@
   tool = vimdiff
 [core]
   excludesfile = /Users/ryanwood/.gitignore
+	editor = vim
 [apply]
   whitespace = strip
 [diff]
