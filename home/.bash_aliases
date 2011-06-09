@@ -23,6 +23,9 @@ alias df='df -h'
 alias du='du -h -d 1'
 alias ..='cd ..'
 alias ...='cd ../..'
+alias ~='cd ~'
+
+alias reload="source ~/.bash_profile"
 
 # Rails
 alias ss='script/server'
