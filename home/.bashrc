@@ -4,14 +4,19 @@ source $HOME/.git-completion
 source $HOME/.git-flow-completion
 source $HOME/.bash_aliases
 
+# http://afreshcup.com/home/2009/12/7/shut-up-postgres.html
+export PGOPTIONS='-c client_min_messages=WARNING'
+export NODE_PATH='/usr/local/lib/node'
+
 export GIT_PS1_SHOWDIRTYSTATE=true
-export EDITOR='mate -w'
+export EDITOR=mvim
+# export EDITOR='mate -w'
 
 export CLICOLOR=1
 # export LSCOLORS=ExGxcxdxCxegedabagacad
 export LSCOLORS=gxfxcxdxbxegedabagacad
 
-PS1='\[\033[0;32m\]\h\033[00m\]\[\033[0;31m\]$(__my_rvm_ruby_version) \[\033[0;36m\]\w\[\033[00m\]\e[0;33m\]$(__git_ps1 " (%s)")\033[00m\]: '
+PS1='\[\033[0;32m\]\h\033[00m\]\[\033[0;31m\]$(__my_rvm_ruby_version) \[\033[0;36m\]\w\[\033[00m\]\e[0;33m\]$(__git_ps1 " (%s)")\033[00m\]\n∴ '
 
 # This loads RVM into a shell session.
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
