@@ -21,6 +21,15 @@ function __my_rvm_ruby_version {
   [ "$rvm_prompt" != "" ] && echo " $rvm_prompt"
 }
 
+# Get and set the current heroku account
+function hset() {
+  ln -nfs ~/.heroku/credentials.$1 ~/.heroku/credentials
+}
+
+function hget() {
+  readlink ~/.heroku/credentials | awk -F . '{print $NF}'
+}
+
 # # For working with Intersect
 # export CATALINA_HOME=/usr/local/apache-tomcat-6.0.29
 # 
