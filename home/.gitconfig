@@ -31,3 +31,5 @@
 	token = 5407ae6aefccd5ec5d9291d5044307dc
 [push]
   default = current
+[heroku]
+	account = ryanwood
