@@ -55,14 +55,18 @@ alias gs='git status'
 alias gd='git diff'
 alias gp='git push'
 alias gl='git pull --rebase'
-alias ga='git add'
+alias ga='git add -u'
 alias gsb='git show-branch'
 alias gb='git branch'
 alias gg='git log'
 alias ggs='git log --stat'
 alias ggt='git log --graph --oneline --all'
 alias grm="git status | grep deleted | awk '{print \$3}' | xargs git rm"
+alias gfa="git fetch --all"
 
 alias gpo='git push origin'
 alias gph='git push heroku'
 alias gpu='git push unfuddle'
+
+# Heroku deployment
+alias rsd='git push; rake staging deploy'

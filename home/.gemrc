@@ -6,5 +6,5 @@
 - http://gemcutter.org
 :backtrace: false
 :bulk_threshold: 1000
-gem: --no-ri
-rdoc: --inline-source --line-numbers --format=html --template=hanna
+gem: --no-rdoc --no-ri
+# rdoc: --inline-source --line-numbers --format=html --template=hanna
