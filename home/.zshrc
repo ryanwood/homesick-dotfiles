@@ -31,6 +31,7 @@ plugins=(git rvm rails rails3 brew gem heroku powder git-flow cap)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
+export EDITOR="mvim"
 export PATH="/usr/local/bin:/usr/local/sbin:$HOME/bin:$PATH"
 
 # http://afreshcup.com/home/2009/12/7/shut-up-postgres.html
