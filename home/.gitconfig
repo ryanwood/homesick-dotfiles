@@ -10,8 +10,7 @@
   co = checkout
   st = status
   br = branch
-  llog = log --date=local
-  tree = log --graph --oneline --all
+  lg = log --graph --abbrev-commit --date=relative
 [merge]
   tool = vimdiff
 [core]
@@ -33,3 +32,5 @@
   default = current
 [heroku]
 	account = ryanwood
+[format]
+	pretty = format:%C(yellow)%h%Creset -%C(red)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset
