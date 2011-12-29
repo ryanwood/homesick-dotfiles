@@ -41,5 +41,6 @@ export PGOPTIONS='-c client_min_messages=WARNING'
 # Fixes ~rvm_rvmrc_cwd in prompt
 unsetopt auto_name_dirs
 
-# This loads RVM into a shell session.
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+# Moved this to .zshenv so MacVim will source it.
+# # This loads RVM into a shell session.
+# [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
